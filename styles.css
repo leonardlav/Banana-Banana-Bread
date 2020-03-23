@@ -1,0 +1,62 @@
+#Main {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: dimgrey;
+}
+
+header {
+  text-align: center;
+  color: black;
+}
+
+article h2 {
+  color: dimgrey;
+  font-weight: lighter;
+}
+
+article table {
+  width: 100%;
+  color: dimgrey;
+}
+article td {
+  width: 25%;
+  height: 50px;
+  text-align: left;
+}
+article tr {
+  width: 25%;
+  height: 50 px;
+  text-align: left;
+}
+
+section h2 {
+  color: dimgrey;
+  font-weight: lighter;
+}
+section article {
+  color: dimgrey;
+  float: left;
+  text-align: center;
+}
+section aside {
+  color: dimgrey;
+  width: 750px;
+  float: right;
+}
+
+footer {
+  color: dimgrey;
+  font-weight: lighter;
+}
+footer h2 {
+  text-align: center;
+}
