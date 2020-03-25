@@ -16,96 +16,97 @@
     />
   </head>
   <body>
-    <div id="Main">
+    <div class="Main">
       <header>
         <h1>Banana banana bread</h1>
         <hr />
         <img src="images/Image1.jfif" width="300" height="300" />
       </header>
-      <article>
-        <h2>Ingredients</h2>
-        <hr />
-        <table class="tb_ing">
-          <tr>
-            <td><i class="fas fa-plus-circle"></i> 2 cups all-purpose flour</td>
-            <td><i class="fas fa-plus-circle"></i> 3/4 cup brown sugar</td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-plus-circle"></i> 1 teaspoon baking soda</td>
-            <td><i class="fas fa-plus-circle"></i> 2 eggs, beaten</td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-plus-circle"></i> 1/4 teaspoon salt</td>
-            <td>
-              <i class="fas fa-plus-circle"></i> 2 1/3 cups mashed overripe
-              bananas
-            </td>
-          </tr>
-          <tr>
-            <td><i class="fas fa-plus-circle"></i> 1/2 cup butter</td>
-            <td>
-              <i class="fas fa-plus-circle"></i> Add all ingredients to list
-            </td>
-          </tr>
-        </table>
-      </article>
-
-      <section>
-        <h2>Directions</h2>
-        <hr />
-        <aside>
-            <table>
-                <tr>
-                  <td>Prep</td>
-                  <td>Cook</td>
-                  <td>Ready in</td>
-                </tr>
-                <tr>
-                  <td>15 m</td>
-                  <td>1 h 5 m</td>
-                  <td>1 h 20 m</td>
-                </tr>
-              </table>
-              </aside>
-          <article>
-            <i class="far fa-clock"></i></td>
-        </article>
-              
-                  <br>
-                  <br>
-                  <br>
-                   <br>
-              
-        <ul>
-          <li>
-            <i class="fas fa-dice-one"></i> Preheat oven to 350 degrees F (175
-            degrees C). Lightly grease a 9x5 inch loaf pan.
-          </li>
-          <br>
-          <li>
-            <i class="fas fa-dice-two"></i> In a large bowl, combine flour,
-            baking soda and salt. In a separate bowl, cream together butter and
-            brown sugar. Stir in eggs and mashed bananas until well blended.
-            Stir banana mixture into flour mixture; stir just to moisten. Pour
-            batter into prepared loaf pan.
-          </li>
-          <br>
-          <li>
-            <i class="fas fa-dice-three"></i> Bake in preheated oven for 60 to
-            65 minutes, until a toothpick inserted into center of the loaf comes
-            out clean. Let bread cool in pan for 10 minutes, then turn out onto
-            a wire rack.
-          </li>
-          <br>
-        </ul>
-    </section>
+      <div class="ingredients-container container">
+        <h3 class="ingredients-title title">Ingredients</h3>
+        <div class="items-container">
+          <div class="left-container">
+            <div class="iteml">
+              <i class="fas fa-plus-circle"></i
+              ><span> 2 cups all-purpose flour</span>
+            </div>
+            <div class="iteml">
+              <i class="fas fa-plus-circle"></i
+              ><span> 1 teaspoon baking soda</span>
+            </div>
+            <div class="iteml">
+              <i class="fas fa-plus-circle"></i><span> 1/4 teaspoon salt</span>
+            </div>
+            <div class="iteml">
+              <i class="fas fa-plus-circle"></i><span> 1/2 cup butter</span>
+            </div>
+          </div>
+          <div class="rigth-container">
+            <div class="iteml">
+              <i class="fas fa-plus-circle"></i
+              ><span> 3/4 cup brown sugar</span>
+            </div>
+            <div class="iteml">
+              <i class="fas fa-plus-circle"></i><span> 2 eggs, beaten</span>
+            </div>
+            <div class="iteml">
+              <i class="fas fa-plus-circle"></i
+              ><span> 2 1/3 cups mashed overripe bananas </span>
+            </div>
+            <div class="iteml">
+              <i class="fas fa-plus-circle"></i
+              ><span> Add all ingredients to list</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="directions-container container">
+        <h3 class="direction-title title">Directions</h3>
+        <div class="steps-container container">
+          <div class="step-item">
+            <span><i class="far fa-clock"></i></span>
+          </div>
+          <div class="step-item">
+            <span>Prep</span>
+            <span>15m</span>
+          </div>
+          <div class="step-item">
+            <span>Cook</span>
+            <span>1h 5m</span>
+          </div>
+          <div class="step-item">
+            <span>Ready In</span>
+            <span>1h 20m</span>
+          </div>
+        </div>
+        <div class="instructions-container container">
+          <ol class="instructions" start="1">
+            <li>
+              Preheat oven to 350 degrees F (175 degrees C). Lightly grease a
+              9x5 inch loaf pan.
+            </li>
+            <li>
+              In a large bowl, combine flour, baking soda and salt. In a
+              separate bowl, cream together butter and brown sugar. Stir in eggs
+              and mashed bananas until well blended. Stir banana mixture into
+              flour mixture; stir just to moisten. Pour batter into prepared
+              loaf pan.
+            </li>
+            <li>
+              Bake in preheated oven for 60 to 65 minutes, until a toothpick
+              inserted into center of the loaf comes out clean. Let bread cool
+              in pan for 10 minutes, then turn out onto a wire rack.
+            </li>
+          </ol>
+        </div>
+      </div>
       <footer>
-        <hr />
-        Footnotes
-        <br>
-        <br>
-       <h2> <span id="year"></span></h2>
-       <br>
+        <div class="foot container">
+          <h3 class="foot-title title">Foot notes</h3>
+          <div class="yearb container">
+            <span id="year"></span>
+          </div>
+        </div>
       </footer>
     </div>
   </body>

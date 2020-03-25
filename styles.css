@@ -1,62 +1,94 @@
-#Main {
+.Main {
   font-family: "Source Sans Pro", sans-serif;
   width: 800px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  color: dimgrey;
-}
-
 header {
   text-align: center;
   color: black;
 }
 
-article h2 {
-  color: dimgrey;
-  font-weight: lighter;
+.container {
+  padding: 0px 0px 16px 8px;
+  color: dimgray;
 }
-
-article table {
+.title {
+  border-bottom: 1px solid dimgrey;
+  padding: 50px 0px 0px 8px;
+  font-size: 25px;
+}
+.iteml {
+  padding: 0px 0px 25px 0px;
+}
+h3 {
   width: 100%;
-  color: dimgrey;
 }
-article td {
-  width: 25%;
-  height: 50px;
-  text-align: left;
+.directions-container {
+  width: 100%;
 }
-article tr {
-  width: 25%;
-  height: 50 px;
-  text-align: left;
+.steps-container {
+  display: flex;
+  /*padding-top: 8px;/*
+  /* padding: 0 0 16px 8px; */
 }
-
-section h2 {
-  color: dimgrey;
-  font-weight: lighter;
-}
-section article {
-  color: dimgrey;
-  float: left;
+.page-title {
   text-align: center;
 }
-section aside {
-  color: dimgrey;
-  width: 750px;
-  float: right;
+.direction-title {
+  /* padding: top right bottom left; */
+  /* padding: 0 0 16px 8px; */
 }
 
-footer {
-  color: dimgrey;
-  font-weight: lighter;
+.step-item {
+  padding: 16px;
+  border-right: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-footer h2 {
+
+.step-item:last-child {
+  border-right: none;
+}
+
+.instructions-container {
+  /* padding: 0 0 16px 8px; */
+}
+
+.instructions {
+  list-style: decimal;
+  list-style-type: circle;
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.instructions li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+.ingredients-container {
+  width: 100%;
+}
+.items-container {
+}
+.left-container {
+  width: 50%;
+  float: left;
+}
+.rigth-container {
+  width: 50%;
+  float: right;
+}
+.yearb {
   text-align: center;
 }
